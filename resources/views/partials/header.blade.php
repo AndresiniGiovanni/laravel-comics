@@ -1,8 +1,8 @@
 
     <header>
-
-        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" />
-
+       <div class="d-inline">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" />
+        </div>
         <nav>
             <ul>
               <li>
