@@ -14,3 +14,57 @@
     margin-left: 7rem;
     margin-right: 7rem;
 }
+
+.my-cont {
+    max-width: 1300px;
+    margin: 0 auto;
+    .info {
+        margin-top: 2.7rem;
+    }
+    span {
+        text-transform: uppercase;
+        color: white;
+        font-size: 13px;
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+    }
+}
+section {
+    width: 100%;
+    height: 120px;
+    background-color: #0282f9;
+    img {
+        width: 15%;
+    }
+}
+
+header {
+    max-width: 1500px;
+    height: 130px;
+    margin: 0 auto;
+
+    img {
+        margin-bottom: 1rem;
+    }
+    img,
+    nav {
+        margin: 0.5rem;
+    }
+    nav {
+        display: inline-block;
+    }
+    ul {
+        list-style: none;
+        margin-top: 3rem;
+
+        li,
+        a {
+            display: inline-block;
+            padding: 0 0.8rem;
+            text-decoration: none;
+            font-weight: 600;
+            color: black;
+            text-transform: uppercase;
+        }
+    }
+}

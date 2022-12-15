@@ -17,5 +17,36 @@
     @endforeach
     </div>
     </div>
+
+    <section>
+        <div class="d-flex align-items-center my-cont">
+            <div class="info">
+              <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="" />
+              <span>digital comics</span>
+            </div>
+
+            <div class="info">
+                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="" />
+                <span>dc merchandise</span>
+              </div>
+
+              <div class="info">
+                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="" />
+                <span>subscription</span>
+              </div>
+
+              <div class="info">
+                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="" />
+                <span>comic shop locator</span>
+              </div>
+
+              <div class="info">
+                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="" />
+                <span>dc power visa</span>
+              </div>
+          </div>
+    </section>
+
+
   </main>
 @endsection
